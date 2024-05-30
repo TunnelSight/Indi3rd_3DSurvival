@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fdcc241b03c52d47be1c60c8aab56ec, type: 3}
+  m_Name: Item_SpeedBuff
+  m_EditorClassIdentifier: 
+  displayName: "\uC2A4\uD53C\uB4DC\uBC84\uD504"
+  description: "10\uCD08\uB3D9\uC548 \uC2A4\uD53C\uB4DC +10"
+  type: 1
+  icon: {fileID: 21300000, guid: 43046426625693b41b1c2ee199d4c15a, type: 3}
+  dropPrefab: {fileID: 5175267955941368727, guid: 517e976be9ac3ee41a961dd8bf728615, type: 3}
+  canStack: 1
+  maxStackAmount: 12
+  consumables:
+  - type: 1
+    statCategory: 3
+    value: 5
+    duration: 10
+  equipPrefab: {fileID: 0}
